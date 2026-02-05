@@ -1,0 +1,129 @@
+import React from 'react';
+import { FaTrophy, FaQuoteLeft, FaQuoteRight, FaStar } from 'react-icons/fa';
+
+const PrincipalMessage = () => {
+  return (
+    <section className="py-16 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+      <div className="container mx-auto px-4">
+        <div className="max-w-5xl mx-auto">
+          {/* Section Header */}
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary-800 dark:text-white mb-4">
+              Principal's <span className="gradient-text">Message</span>
+            </h2>
+            <div className="w-24 h-1 bg-gradient-accent mx-auto"></div>
+          </div>
+
+          {/* Principal Card */}
+          <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl overflow-hidden">
+            <div className="grid md:grid-cols-5 gap-0">
+              {/* Left - Principal Photo */}
+              <div className="md:col-span-2 bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-500 p-8 flex items-center justify-center relative">
+                <div className="absolute top-4 right-4 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full flex items-center space-x-2">
+                  <FaTrophy className="text-white" />
+                  <span className="text-white font-bold text-sm">Best Principal</span>
+                </div>
+                
+                <div className="text-center">
+                  <div className="relative inline-block mb-4">
+                    <div className="w-56 h-56 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-white">
+                      <img 
+                        src="/images/leadership/principal-suresh-yadav.png"
+                        alt="Principal Suresh Yadav"
+                        className="w-full h-full object-cover object-top scale-110"
+                        style={{ objectPosition: 'center 20%' }}
+                      />
+                    </div>
+                    <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-white px-4 py-2 rounded-full shadow-lg">
+                      <div className="flex items-center space-x-1">
+                        <FaStar className="text-yellow-500 text-sm" />
+                        <FaStar className="text-yellow-500 text-sm" />
+                        <FaStar className="text-yellow-500 text-sm" />
+                        <FaStar className="text-yellow-500 text-sm" />
+                        <FaStar className="text-yellow-500 text-sm" />
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold text-white mb-1">Suresh Yadav</h3>
+                  <p className="text-white/90 font-semibold mb-2">Principal</p>
+                  <div className="bg-white/20 backdrop-blur-md px-4 py-2 rounded-full inline-block">
+                    <p className="text-white text-sm font-semibold">
+                      🏆 Top 1000/15 Lakh Schools
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right - Message */}
+              <div className="md:col-span-3 p-8 md:p-12">
+                <div className="relative">
+                  <FaQuoteLeft className="text-4xl text-primary-200 dark:text-primary-700 mb-4" />
+                  
+                  <div className="space-y-4 text-gray-700 dark:text-gray-300">
+                    <p className="text-lg leading-relaxed">
+                      Dear Students, Parents, and Well-wishers,
+                    </p>
+                    
+                    <p className="text-lg leading-relaxed">
+                      It is with immense pride and gratitude that I welcome you to <strong className="text-primary-600 dark:text-accent-400">Shri Krishna Public School</strong>, recognized among India's <strong className="text-yellow-600 dark:text-yellow-400">Top 1000 Schools</strong> by the Indian Talent Olympiad.
+                    </p>
+                    
+                    <p className="text-lg leading-relaxed">
+                      Education is not just about academics; it's about nurturing curious minds, building strong character, and preparing our students to become compassionate global citizens. Our achievements - <strong>38 Gold Medals in Olympiads, 5 Black Belts in Karate, and outstanding Board results</strong> - are a testament to our commitment to holistic development.
+                    </p>
+                    
+                    <p className="text-lg leading-relaxed italic font-semibold text-primary-700 dark:text-accent-400">
+                      "Education is not preparation for life; education is life itself."
+                    </p>
+                    
+                    <p className="text-lg leading-relaxed">
+                      At Shri Krishna Public School, every moment is a learning opportunity. We strive to create an environment where every child can discover their potential, pursue their passions, and achieve excellence.
+                    </p>
+                    
+                    <p className="text-lg leading-relaxed">
+                      Together, let us continue this journey of excellence, innovation, and growth.
+                    </p>
+                  </div>
+                  
+                  <FaQuoteRight className="text-4xl text-primary-200 dark:text-primary-700 mt-4 ml-auto block" />
+                  
+                  {/* Signature */}
+                  <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                    <p className="text-xl font-bold text-gray-800 dark:text-white">Suresh Yadav</p>
+                    <p className="text-gray-600 dark:text-gray-400">Principal</p>
+                    <p className="text-sm text-yellow-600 dark:text-yellow-400 font-semibold">
+                      Best Principal Award Winner - Indian Talent Olympiad
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Achievement Badges */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+            <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl p-4 text-center text-white shadow-lg">
+              <div className="text-3xl font-bold mb-1">Top 1000</div>
+              <div className="text-sm opacity-90">Schools in India</div>
+            </div>
+            <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl p-4 text-center text-white shadow-lg">
+              <div className="text-3xl font-bold mb-1">38</div>
+              <div className="text-sm opacity-90">Gold Medals</div>
+            </div>
+            <div className="bg-gradient-to-br from-red-400 to-red-600 rounded-xl p-4 text-center text-white shadow-lg">
+              <div className="text-3xl font-bold mb-1">5</div>
+              <div className="text-sm opacity-90">Black Belts</div>
+            </div>
+            <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-xl p-4 text-center text-white shadow-lg">
+              <div className="text-3xl font-bold mb-1">90%+</div>
+              <div className="text-sm opacity-90">Board Results</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default PrincipalMessage;
