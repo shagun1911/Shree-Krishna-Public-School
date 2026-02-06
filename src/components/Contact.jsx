@@ -19,18 +19,18 @@ const Contact = () => {
     {
       icon: FaPhone,
       title: 'Phone',
-      details: ['+91 96646 27412', 'Available: Mon-Sat, 8 AM - 2 PM'],
+      details: ['+919896941400', 'Available: Mon-Sat, 8 AM - 2 PM'],
       color: 'text-green-600',
       bgColor: 'bg-green-100',
-      link: 'tel:+919664627412',
+      link: 'tel:+919896941400',
     },
     {
       icon: FaEnvelope,
       title: 'Email',
-      details: ['info@shrikrishnaschool.edu.in', 'admissions@shrikrishnaschool.edu.in'],
+      details: ['19shagunyadavnnl@gmail.com'],
       color: 'text-blue-600',
       bgColor: 'bg-blue-100',
-      link: 'mailto:info@shrikrishnaschool.edu.in',
+      link: 'mailto:19shagunyadavnnl@gmail.com',
     },
     {
       icon: FaMapMarkerAlt,
@@ -90,7 +90,7 @@ const Contact = () => {
       }, 5000);
     } catch (error) {
       console.error('Error submitting contact form:', error);
-      alert('Failed to send message. Please try WhatsApp option or call us directly at +91 96646 27412');
+      alert('Failed to send message. Please try WhatsApp option or call us directly at +919896941400');
     } finally {
       setLoading(false);
     }
@@ -355,12 +355,12 @@ const Contact = () => {
           <h3 className="text-2xl md:text-3xl font-bold mb-4">Visit Our Campus</h3>
           <p className="mb-6 text-blue-100">We welcome parents and students to visit us and experience our learning environment</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="tel:+919664627412" className="flex items-center space-x-2 bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all">
+            <a href="tel:+919896941400" className="flex items-center space-x-2 bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all">
               <FaPhone />
-              <span>Call: +91 96646 27412</span>
+              <span>Call: +919896941400</span>
             </a>
-            <a 
-              href="https://wa.me/919664627412?text=Hello!%20I%20want%20to%20visit%20Shree%20Krishna%20Public%20School"
+            <a
+              href="https://wa.me/919896941400?text=Hello!%20I%20want%20to%20visit%20Shree%20Krishna%20Public%20School"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all"

@@ -80,42 +80,42 @@ const Home = () => {
       <Campuses />
       
       {/* Why Choose Us Section */}
-      <section className="py-20 bg-gradient-primary text-white">
+      <section className="py-20 bg-gradient-to-br from-blue-900 via-primary-800 to-indigo-900 text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose Us?</h2>
-            <p className="text-xl text-gray-100 max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Why Choose Us?</h2>
+            <p className="text-xl text-white max-w-3xl mx-auto">
               We provide a nurturing environment where every child can excel
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <div className="text-center">
-              <div className="text-5xl font-bold mb-2">Top 1000</div>
-              <div className="text-lg">Schools in India</div>
-              <div className="text-sm opacity-80 mt-1">out of 15 Lakh</div>
+              <div className="text-5xl font-bold mb-2 text-yellow-400">Top 1000</div>
+              <div className="text-lg font-semibold text-white">Schools in India</div>
+              <div className="text-sm text-gray-200 mt-1">out of 15 Lakh</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold mb-2">38</div>
-              <div className="text-lg">Gold Medals</div>
-              <div className="text-sm opacity-80 mt-1">SOF Olympiad</div>
+              <div className="text-5xl font-bold mb-2 text-yellow-400">38</div>
+              <div className="text-lg font-semibold text-white">Gold Medals</div>
+              <div className="text-sm text-gray-200 mt-1">SOF Olympiad</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold mb-2">5</div>
-              <div className="text-lg">Black Belts</div>
-              <div className="text-sm opacity-80 mt-1">Karate Champions</div>
+              <div className="text-5xl font-bold mb-2 text-yellow-400">5</div>
+              <div className="text-lg font-semibold text-white">Black Belts</div>
+              <div className="text-sm text-gray-200 mt-1">Karate Champions</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold mb-2">90%+</div>
-              <div className="text-lg">Board Results</div>
-              <div className="text-sm opacity-80 mt-1">29 Students</div>
+              <div className="text-5xl font-bold mb-2 text-yellow-400">90%+</div>
+              <div className="text-lg font-semibold text-white">Board Results</div>
+              <div className="text-sm text-gray-200 mt-1">29 Students</div>
             </div>
           </div>
 
           <div className="text-center mt-12">
             <Link
               to="/about"
-              className="inline-block bg-white text-primary-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transform hover:scale-105 transition-all"
+              className="inline-block bg-white text-primary-800 px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transform hover:scale-105 transition-all"
             >
               Learn More About Us
             </Link>

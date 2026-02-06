@@ -8,19 +8,19 @@ const FloatingContact = () => {
     {
       icon: FaPhone,
       label: 'Call Us',
-      href: 'tel:+919664627412',
+      href: 'tel:+919896941400',
       color: 'bg-green-500 hover:bg-green-600',
     },
     {
       icon: FaWhatsapp,
       label: 'WhatsApp',
-      href: 'https://wa.me/919664627412',
+      href: 'https://wa.me/919896941400',
       color: 'bg-green-600 hover:bg-green-700',
     },
     {
       icon: FaEnvelope,
       label: 'Email',
-      href: 'mailto:info@shrikrishnaschool.edu.in',
+      href: 'mailto:19shagunyadavnnl@gmail.com',
       color: 'bg-blue-500 hover:bg-blue-600',
     },
   ];

@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   FaFacebook, 
-  FaTwitter, 
   FaInstagram, 
-  FaYoutube, 
   FaPhone, 
   FaEnvelope, 
   FaMapMarkerAlt,
@@ -51,18 +49,26 @@ const Footer = () => {
     { 
       icon: FaInstagram, 
       url: 'https://www.instagram.com/shree_krishna_publicudairamsar/', 
-      color: 'hover:bg-pink-600', 
-      label: 'Shri Krishna Public School Instagram' 
+      color: 'hover:bg-gradient-to-br hover:from-purple-600 hover:via-pink-600 hover:to-orange-500', 
+      bgColor: 'bg-gradient-to-br from-purple-500/20 via-pink-500/20 to-orange-500/20',
+      label: 'Shri Krishna Public School Instagram',
+      badge: 'SKPS'
     },
     { 
       icon: FaInstagram, 
       url: 'https://www.instagram.com/little_krishna_public_school_/', 
-      color: 'hover:bg-purple-600', 
+      color: 'hover:bg-gradient-to-br hover:from-yellow-500 hover:via-orange-500 hover:to-red-500', 
+      bgColor: 'bg-gradient-to-br from-yellow-500/20 via-orange-500/20 to-red-500/20',
       label: 'Little Krishna Public School Instagram',
-      isSecondary: true
+      badge: 'LKPS'
     },
-    { icon: FaFacebook, url: '#', color: 'hover:bg-blue-600', label: 'Facebook' },
-    { icon: FaYoutube, url: '#', color: 'hover:bg-red-600', label: 'YouTube' },
+    { 
+      icon: FaFacebook, 
+      url: 'https://www.facebook.com/skpsudairamsar/', 
+      color: 'hover:bg-blue-600', 
+      bgColor: 'bg-blue-500/20',
+      label: 'Facebook' 
+    },
   ];
 
   return (
@@ -91,25 +97,40 @@ const Footer = () => {
               <p className="text-xs text-gray-400 font-semibold">Follow Us:</p>
               <div className="flex flex-wrap gap-3">
                 {socialLinks.map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={social.label}
-                    title={social.label}
-                    className={`group relative w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center ${social.color} hover:text-white transition-all transform hover:scale-110 ${social.isSecondary ? 'ring-2 ring-purple-400' : ''}`}
-                  >
-                    <social.icon />
-                    {social.isSecondary && (
-                      <span className="absolute -top-1 -right-1 w-3 h-3 bg-purple-500 rounded-full border-2 border-gray-900"></span>
-                    )}
-                  </a>
+                  <div key={index} className="relative group">
+                    <a
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={social.label}
+                      title={social.label}
+                      className={`relative w-12 h-12 ${social.bgColor} rounded-full flex items-center justify-center ${social.color} text-white transition-all transform hover:scale-110 shadow-lg hover:shadow-xl`}
+                    >
+                      <social.icon className="text-xl" />
+                      {social.badge && (
+                        <span className="absolute -bottom-1 -right-1 text-[8px] font-bold bg-gray-900 text-white px-1.5 py-0.5 rounded-full border border-gray-700">
+                          {social.badge}
+                        </span>
+                      )}
+                    </a>
+                    {/* Tooltip */}
+                    <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 bg-gray-800 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+                      {social.label}
+                    </span>
+                  </div>
                 ))}
               </div>
-              <p className="text-xs text-gray-500 italic">
-                2 Instagram accounts - Main campus & Little Krishna
-              </p>
+              <div className="flex items-center gap-2 text-xs text-gray-500">
+                <span className="flex items-center">
+                  <span className="w-2 h-2 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 mr-1"></span>
+                  Main Campus
+                </span>
+                <span>•</span>
+                <span className="flex items-center">
+                  <span className="w-2 h-2 rounded-full bg-gradient-to-br from-yellow-500 to-orange-500 mr-1"></span>
+                  Little Krishna
+                </span>
+              </div>
             </div>
           </div>
 
@@ -169,14 +190,14 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <FaPhone className="text-accent-400 flex-shrink-0" />
-                <a href="tel:+919664627412" className="text-gray-400 hover:text-white transition text-sm">
-                  +91 96646 27412
+                <a href="tel:+919896941400" className="text-gray-400 hover:text-white transition text-sm">
+                  +919896941400
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="text-accent-400 flex-shrink-0" />
-                <a href="mailto:info@shrikrishnaschool.edu.in" className="text-gray-400 hover:text-white transition text-sm">
-                  info@shrikrishnaschool.edu.in
+                <a href="mailto:19shagunyadavnnl@gmail.com" className="text-gray-400 hover:text-white transition text-sm">
+                  19shagunyadavnnl@gmail.com
                 </a>
               </div>
             </div>

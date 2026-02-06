@@ -39,7 +39,6 @@ const Gallery = () => {
     { url: '/images/gallery/photo_2026-02-05 18.29.44.jpeg', title: 'Educational Activity', category: 'Academics' },
     { url: '/images/gallery/photo_2026-02-05 18.29.45.jpeg', title: 'School Gathering', category: 'Events' },
     { url: '/images/gallery/photo_2026-02-05 18.29.46.jpeg', title: 'Campus Building', category: 'Facilities' },
-    { url: '/images/gallery/photo_2026-02-05 18.29.47.jpeg', title: 'Students Activity', category: 'Activities' },
     { url: '/images/gallery/photo_2026-02-05 18.29.48.jpeg', title: 'School Celebration', category: 'Events' },
     { url: '/images/gallery/photo_2026-02-05 18.29.50.jpeg', title: 'Learning Environment', category: 'Academics' },
     { url: '/images/gallery/photo_2026-02-05 18.29.52.jpeg', title: 'Sports Activity', category: 'Sports' },
@@ -47,7 +46,7 @@ const Gallery = () => {
     { url: '/images/gallery/photo_2026-02-05 18.29.57.jpeg', title: 'Campus Area', category: 'Campus' },
     { url: '/images/gallery/photo_2026-02-05 18.30.02.jpeg', title: 'Educational Event', category: 'Academics' },
     { url: '/images/gallery/photo_2026-02-05 18.30.06.jpeg', title: 'School Activity', category: 'Activities' },
-    { url: '/images/gallery/photo_2026-02-05 18.30.10.jpeg', title: 'Group Learning', category: 'Academics' },
+ 
   ];
 
   const categories = ['All', 'Campus', 'Academics', 'Sports', 'Events', 'Activities', 'Facilities'];

@@ -162,10 +162,10 @@ const Header = () => {
                   </Link>
                 ))}
                 <div className="flex items-center space-x-3 text-xs ml-4 pl-4 border-l border-gray-300">
-                  <a href="tel:+919664627412" className="flex items-center text-gray-700 hover:text-primary-600 transition whitespace-nowrap">
-                    <FaPhone className="mr-1.5" /> +91 96646 27412
+                  <a href="tel:+919896941400" className="flex items-center text-gray-700 hover:text-primary-600 transition whitespace-nowrap">
+                    <FaPhone className="mr-1.5" /> +919896941400
                   </a>
-                  <a href="mailto:info@shrikrishnaschool.edu.in" className="flex items-center text-gray-700 hover:text-primary-600 transition">
+                  <a href="mailto:19shagunyadavnnl@gmail.com" className="flex items-center text-gray-700 hover:text-primary-600 transition">
                     <FaEnvelope className="mr-1.5" /> Email
                   </a>
                 </div>
@@ -214,16 +214,16 @@ const Header = () => {
                 {/* Contact Info */}
                 <div className="px-4 pb-4 pt-2 border-t border-gray-100 space-y-2">
                   <a 
-                    href="tel:+919664627412" 
+                    href="tel:+919896941400" 
                     className="flex items-center text-gray-700 text-sm py-2 px-3 rounded-lg hover:bg-gray-50"
                   >
-                    <FaPhone className="mr-3 text-primary-600" /> +91 96646 27412
+                    <FaPhone className="mr-3 text-primary-600" /> +919896941400
                   </a>
                   <a 
-                    href="mailto:info@shrikrishnaschool.edu.in" 
+                    href="mailto:19shagunyadavnnl@gmail.com" 
                     className="flex items-center text-gray-700 text-sm py-2 px-3 rounded-lg hover:bg-gray-50"
                   >
-                    <FaEnvelope className="mr-3 text-primary-600" /> info@shrikrishnaschool.edu.in
+                    <FaEnvelope className="mr-3 text-primary-600" /> 19shagunyadavnnl@gmail.com
                   </a>
                 </div>
               </div>

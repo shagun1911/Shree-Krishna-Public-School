@@ -39,21 +39,21 @@ const ContactPage = () => {
               {/* Quick Contact Options */}
               <div className="grid grid-cols-2 gap-3 mb-8 max-w-md mx-auto md:mx-0">
                 <a
-                  href="tel:+919664627412"
+                  href="tel:+919896941400"
                   className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center hover:bg-white/20 transition-all group"
                 >
                   <FaPhone className="text-2xl mx-auto mb-1 text-sky-400 group-hover:animate-bounce" />
                   <div className="text-xs text-sky-200">Call Us</div>
                 </a>
                 <a
-                  href="mailto:info@shrikrishnaschool.edu.in"
+                  href="mailto:19shagunyadavnnl@gmail.com"
                   className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center hover:bg-white/20 transition-all group"
                 >
                   <FaEnvelope className="text-2xl mx-auto mb-1 text-sky-400 group-hover:animate-bounce" />
                   <div className="text-xs text-sky-200">Email Us</div>
                 </a>
                 <a
-                  href="https://wa.me/919664627412"
+                  href="https://wa.me/919896941400"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center hover:bg-white/20 transition-all group"
@@ -73,7 +73,7 @@ const ContactPage = () => {
                   <FaPhone className="text-sky-400 text-xl" />
                   <div className="text-left">
                     <div className="text-xs text-sky-200">Phone</div>
-                    <div className="font-semibold">+91 96646 27412</div>
+                    <div className="font-semibold">+919896941400</div>
                   </div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 flex items-center space-x-3">
