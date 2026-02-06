@@ -17,7 +17,7 @@ const Hero = () => {
     {
       image: '/images/school-building.png',
       title: 'Shree Krishna Public Sr. Sec. School',
-      subtitle: 'Quality Education Since 2004 • Top 1000 School in India',
+      subtitle: 'Quality Education Since 2004 • In Top 1000 Schools in India',
     },
     {
       image: '/images/gallery/photo_2026-02-05 18.29.05.jpeg',
@@ -85,7 +85,7 @@ const Hero = () => {
                 <span className="text-accent-300">Shree Krishna</span> Public School
               </h1>
               <p className="text-lg md:text-xl mb-6 text-gray-100 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-                🏆 Top 1000 School in India • 📍 Udairamsar, Bikaner, Rajasthan
+                🏆 In Top 1000 Schools in India • 📍 Udairamsar, Bikaner, Rajasthan
               </p>
               <p className="text-base md:text-lg mb-8 text-gray-200 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
                 Empowering students through quality education at our two campuses since 2004

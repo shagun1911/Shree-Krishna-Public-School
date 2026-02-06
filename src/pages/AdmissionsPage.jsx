@@ -126,7 +126,7 @@ const AdmissionsPage = () => {
             <div className="inline-flex flex-wrap items-center justify-center gap-4 bg-cyan-400 text-gray-900 px-6 py-3 rounded-full font-bold shadow-lg">
               <span>🎓 Quality Education</span>
               <span className="hidden sm:inline">•</span>
-              <span>🏆 Top 1000 School</span>
+              <span>🏆 In Top 1000 Schools</span>
               <span className="hidden sm:inline">•</span>
               <span>👨‍🏫 Experienced Faculty</span>
             </div>

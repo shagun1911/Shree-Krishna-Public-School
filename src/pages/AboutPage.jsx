@@ -10,7 +10,7 @@ const AboutPage = () => {
     { year: '2012', event: 'Little Krishna Campus Opened' },
     { year: '2016', event: 'New Science Block Inaugurated' },
     { year: '2020', event: 'Digital Classrooms Implemented' },
-    { year: '2024', event: 'Best Principal Award - Top 1000 Schools' },
+    { year: '2024', event: 'Best Principal Award - In Top 1000 Schools' },
   ];
 
   return (
@@ -115,7 +115,7 @@ const AboutPage = () => {
           <div className="mt-12 text-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
             <div className="inline-flex items-center space-x-3 bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-bold shadow-lg">
               <FaTrophy className="text-2xl" />
-              <span>Best Principal Award 2024 • Top 1000 Schools in India</span>
+              <span>Best Principal Award 2024 • In Top 1000 Schools in India</span>
             </div>
           </div>
         </div>

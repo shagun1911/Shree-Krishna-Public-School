@@ -66,7 +66,7 @@ const PrincipalMessage = () => {
                     </p>
                     
                     <p className="text-lg leading-relaxed">
-                      It is with immense pride and gratitude that I welcome you to <strong className="text-primary-600 dark:text-accent-400">Shri Krishna Public School</strong>, recognized among India's <strong className="text-yellow-600 dark:text-yellow-400">Top 1000 Schools</strong> by the Indian Talent Olympiad.
+                      It is with immense pride and gratitude that I welcome you to <strong className="text-primary-600 dark:text-accent-400">Shri Krishna Public School</strong>, recognized <strong className="text-yellow-600 dark:text-yellow-400">In Top 1000 Schools</strong> by the Indian Talent Olympiad.
                     </p>
                     
                     <p className="text-lg leading-relaxed">

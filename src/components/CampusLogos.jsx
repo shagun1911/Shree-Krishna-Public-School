@@ -27,7 +27,7 @@ const CampusLogos = () => {
             <p className="text-sm text-gray-600 mb-3">Main Campus • Since 2004</p>
             <p className="text-xs text-gray-500 mb-4">Classes 1-12 • CBSE Affiliated</p>
             <div className="flex items-center justify-center space-x-2 text-sm text-primary-600 font-semibold">
-              <span>🏆 Top 1000 School in India</span>
+              <span>🏆 In Top 1000 Schools in India</span>
             </div>
           </div>
 

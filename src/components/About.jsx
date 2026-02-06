@@ -60,8 +60,8 @@ const About = () => {
                 alt="School Director"
                 className="w-full h-96 object-cover"
                 style={{ 
-                  objectPosition: 'center 5%',
-                  transform: 'scale(2.5)'
+                  objectPosition: 'center top',
+                  transform: 'scale(1.0)'
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-900/50 to-transparent"></div>

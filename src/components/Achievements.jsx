@@ -128,7 +128,7 @@ const Achievements = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-accent mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Recognized among India's Top 1000 Schools by Indian Talent Olympiad
+            Recognized In Top 1000 Schools by Indian Talent Olympiad
           </p>
         </div>
 

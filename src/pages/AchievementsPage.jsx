@@ -15,7 +15,7 @@ const AchievementsPage = () => {
           </h1>
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-xl text-gray-100 max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Recognized Among India's Top 1000 Schools by Indian Talent Olympiad
+            Recognized In Top 1000 Schools by Indian Talent Olympiad
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="bg-white/20 backdrop-blur-md px-6 py-3 rounded-full">

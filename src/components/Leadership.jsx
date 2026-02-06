@@ -66,8 +66,8 @@ const Leadership = () => {
                           alt={leader.name}
                           className="w-full h-full object-cover"
                           style={{ 
-                            objectPosition: index === 0 ? 'center 20%' : 'center 5%',
-                            transform: index === 0 ? 'scale(1.25)' : 'scale(2.5)'
+                            objectPosition: index === 0 ? 'center 20%' : 'center top',
+                            transform: index === 0 ? 'scale(1.25)' : 'scale(1.0)'
                           }}
                           onError={(e) => {
                             // If image fails to load, show placeholder SVG
