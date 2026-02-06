@@ -76,13 +76,13 @@ const AdmissionsPage = () => {
                 <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 delay-150 ${
                   heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
                 }`}>
-                  <div className="text-2xl md:text-3xl font-bold text-cyan-400">450+</div>
+                  <div className="text-2xl md:text-3xl font-bold text-cyan-400">3000+</div>
                   <div className="text-xs text-teal-200">Parents</div>
                 </div>
                 <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 delay-300 ${
                   heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
                 }`}>
-                  <div className="text-2xl md:text-3xl font-bold text-cyan-400">15+</div>
+                  <div className="text-2xl md:text-3xl font-bold text-cyan-400">20+</div>
                   <div className="text-xs text-teal-200">Years</div>
                 </div>
               </div>

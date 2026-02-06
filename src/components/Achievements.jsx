@@ -424,7 +424,7 @@ const Achievements = () => {
         )}
 
         {/* Call to Action */}
-        <div className="mt-16 text-center bg-gradient-primary rounded-2xl p-12 text-white animate-scale-in">
+        <div className="mt-16 text-center bg-gradient-primary rounded-2xl p-12 text-black animate-scale-in">
           <h3 className="text-3xl font-bold mb-4">
             Join Our Award-Winning School!
           </h3>

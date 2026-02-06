@@ -143,8 +143,8 @@ const ShreeKrishnaUdairamsarPage = () => {
                   <div className="flex items-start space-x-4">
                     <FaGraduationCap className="text-4xl text-indigo-600 flex-shrink-0" />
                     <div>
-                      <h3 className="text-xl font-bold text-gray-800 mb-2">15+ Years Experience</h3>
-                      <p className="text-gray-700">Over 15 years of excellence in education with experienced and dedicated faculty members.</p>
+                      <h3 className="text-xl font-bold text-gray-800 mb-2">20+ Years Experience</h3>
+                      <p className="text-gray-700">Over 20 years of excellence in education with experienced and dedicated faculty members.</p>
                     </div>
                   </div>
                 </div>

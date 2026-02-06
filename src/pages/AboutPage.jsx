@@ -160,7 +160,7 @@ const AboutPage = () => {
                   Our 20+ year journey has been marked by continuous growth, innovation, and an unwavering commitment to academic excellence. We have evolved to meet the changing needs of education while staying true to our core values of integrity, compassion, and excellence. In 2024, our Principal Suresh Yadav was honored with the Best Principal Award by Indian Talent Olympiad.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Today, we serve over 30000+ happy students across our two campuses - Shree Krishna Public School and LKPS English Academy - with 450+ satisfied parents trusting us. Our dedicated team of 30+ experienced educators with 20+ years of experience are passionate about nurturing young minds and achieving a 95% success rate that benefits countless families in our community.
+                  Today, we serve over 30000+ happy students across our two campuses - Shree Krishna Public School and LKPS English Academy - with 3000+ satisfied parents trusting us. Our dedicated team of 30+ experienced educators with 20+ years of experience are passionate about nurturing young minds and achieving a 95% success rate that benefits countless families in our community.
                 </p>
               </div>
               <div className={`relative transition-all duration-1000 delay-300 ${

@@ -91,7 +91,7 @@ const CampusesPage = () => {
                 <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 delay-300 ${
                   heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
                 }`}>
-                  <div className="text-2xl md:text-3xl font-bold text-emerald-400">450+</div>
+                  <div className="text-2xl md:text-3xl font-bold text-emerald-400">3000+</div>
                   <div className="text-xs text-emerald-200">Satisfied Parents</div>
                 </div>
               </div>

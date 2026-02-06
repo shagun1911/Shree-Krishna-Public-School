@@ -130,7 +130,7 @@ const Home = () => {
             <div className={`text-center transition-all duration-700 ${
               whyChooseVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
             }`} style={{ transitionDelay: whyChooseVisible ? '500ms' : '0ms' }}>
-              <div className="text-5xl font-bold mb-2 text-yellow-400">450+</div>
+              <div className="text-5xl font-bold mb-2 text-yellow-400">3000+</div>
               <div className="text-lg font-semibold text-white">Satisfied Parents</div>
               <div className="text-sm text-gray-200 mt-1">Trusting Us</div>
             </div>

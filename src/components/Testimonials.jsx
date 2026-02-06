@@ -150,19 +150,19 @@ const Testimonials = () => {
           <div className={`text-center transition-all duration-700 ${
             statsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
           }`} style={{ transitionDelay: statsVisible ? '250ms' : '0ms' }}>
-            <div className="text-4xl font-bold text-primary-600 mb-2">450+</div>
+            <div className="text-4xl font-bold text-primary-600 mb-2">3000+</div>
             <div className="text-gray-600">Satisfied Parents</div>
           </div>
           <div className={`text-center transition-all duration-700 ${
             statsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
           }`} style={{ transitionDelay: statsVisible ? '400ms' : '0ms' }}>
-            <div className="text-4xl font-bold text-primary-600 mb-2">95%</div>
+            <div className="text-4xl font-bold text-primary-600 mb-2">95%+</div>
             <div className="text-gray-600">Success Rate</div>
           </div>
           <div className={`text-center transition-all duration-700 ${
             statsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
           }`} style={{ transitionDelay: statsVisible ? '550ms' : '0ms' }}>
-            <div className="text-4xl font-bold text-primary-600 mb-2">15+</div>
+            <div className="text-4xl font-bold text-primary-600 mb-2">20+</div>
             <div className="text-gray-600">Years Experience</div>
           </div>
         </div>

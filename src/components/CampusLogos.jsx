@@ -66,11 +66,7 @@ const CampusLogos = () => {
         </div>
 
         {/* Info Banner */}
-        <div className="mt-8 text-center">
-          <p className="text-sm text-gray-600">
-            📍 Both campuses located in Udairamsar, Bikaner, Rajasthan 334402
-          </p>
-        </div>
+        
       </div>
     </section>
   );
