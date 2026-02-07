@@ -61,16 +61,19 @@ const Header = () => {
   };
 
   return (
-    <>
+    <div className="fixed top-0 w-full z-50">
       {/* Main Navigation - Improved Design */}
       <header
-        className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled
+        className={`w-full transition-all duration-300 ${isScrolled
           ? 'bg-white shadow-xl py-2'
-          : 'bg-white/95 backdrop-blur-md py-3'
+          : 'bg-transparent py-4 md:py-6'
           }`}
       >
         <nav className="container mx-auto px-4">
-          <div className="bg-gradient-to-r from-blue-50/50 to-indigo-50/50 rounded-2xl md:rounded-3xl shadow-sm px-4 md:px-6 py-2 border border-white/50">
+          <div className={`transition-all duration-300 ${isScrolled
+            ? 'bg-transparent border-transparent'
+            : 'bg-white/95 backdrop-blur-xl shadow-2xl border-white/50'
+            } rounded-2xl md:rounded-3xl px-4 md:px-6 py-2 border`}>
             {/* Desktop Layout - Grid (lg+) */}
             <div className="hidden lg:grid grid-cols-3 items-center gap-2">
               {/* Left: Logo */}
@@ -219,7 +222,7 @@ const Header = () => {
           )}
         </nav>
       </header>
-    </>
+    </div>
   );
 };
 

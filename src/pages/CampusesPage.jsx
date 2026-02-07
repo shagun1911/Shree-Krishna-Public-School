@@ -11,7 +11,7 @@ const CampusesPage = () => {
   return (
     <div>
       {/* Enhanced Hero Section */}
-      <section className="relative bg-gradient-to-br from-emerald-900 via-teal-800 to-green-900 text-white py-16 md:py-24 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-emerald-900 via-teal-800 to-green-900 text-white pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
@@ -25,24 +25,24 @@ const CampusesPage = () => {
             {/* Left Content */}
             <div className="text-center md:text-left animate-slide-in-left">
               <div className="flex justify-center md:justify-start mb-6 space-x-4">
-                <img 
-                  src="/logo.png" 
-                  alt="SKPS Logo" 
+                <img
+                  src="/logo.png"
+                  alt="SKPS Logo"
                   className="w-20 h-20 md:w-24 md:h-24 object-contain animate-float"
                 />
-                <img 
-                  src="/images/lkps-english-academy-logo.png" 
-                  alt="LKPS Logo" 
+                <img
+                  src="/images/lkps-english-academy-logo.png"
+                  alt="LKPS Logo"
                   className="w-20 h-20 md:w-24 md:h-24 object-contain animate-float"
                   style={{ animationDelay: '0.2s' }}
                 />
               </div>
-              
+
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                 Our <span className="text-emerald-400">Campuses</span><br />
                 Two Locations
               </h1>
-              
+
               <p className="text-lg md:text-xl text-emerald-100 mb-6 leading-relaxed">
                 Two modern campuses in Bikaner, Rajasthan, designed to provide the best learning environment for all age groups
               </p>
@@ -72,25 +72,22 @@ const CampusesPage = () => {
               </div>
 
               {/* Campus Stats */}
-              <div 
+              <div
                 ref={heroStatsRef}
                 className="grid grid-cols-3 gap-4 mb-8 max-w-md mx-auto md:mx-0"
               >
-                <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 ${
-                  heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
-                }`}>
+                <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 ${heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
+                  }`}>
                   <div className="text-2xl md:text-3xl font-bold text-emerald-400">2</div>
                   <div className="text-xs text-emerald-200">Campuses</div>
                 </div>
-                <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 delay-150 ${
-                  heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
-                }`}>
+                <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 delay-150 ${heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
+                  }`}>
                   <div className="text-2xl md:text-3xl font-bold text-emerald-400">30000+</div>
                   <div className="text-xs text-emerald-200">Happy Students</div>
                 </div>
-                <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 delay-300 ${
-                  heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
-                }`}>
+                <div className={`bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center transition-all duration-700 delay-300 ${heroStatsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
+                  }`}>
                   <div className="text-2xl md:text-3xl font-bold text-emerald-400">3000+</div>
                   <div className="text-xs text-emerald-200">Satisfied Parents</div>
                 </div>
@@ -117,26 +114,26 @@ const CampusesPage = () => {
             <div className="hidden md:block animate-slide-in-right">
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
-                  <img 
-                    src="/images/school-building.png" 
-                    alt="Main Campus" 
+                  <img
+                    src="/images/school-building.png"
+                    alt="Main Campus"
                     className="rounded-2xl shadow-2xl w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
                   />
-                  <img 
-                    src="/images/gallery/photo_2026-02-05 18.29.26.jpeg" 
-                    alt="Campus Life" 
+                  <img
+                    src="/images/gallery/photo_2026-02-05 18.29.26.jpeg"
+                    alt="Campus Life"
                     className="rounded-2xl shadow-2xl w-full h-32 object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="space-y-4 mt-8">
-                  <img 
-                    src="/images/gallery/photo_2026-02-05 18.30.26.jpeg" 
-                    alt="Students" 
+                  <img
+                    src="/images/gallery/photo_2026-02-05 18.30.26.jpeg"
+                    alt="Students"
                     className="rounded-2xl shadow-2xl w-full h-32 object-cover hover:scale-105 transition-transform duration-300"
                   />
-                  <img 
-                    src="/images/gallery/photo_2026-02-05 18.29.33.jpeg" 
-                    alt="Campus View" 
+                  <img
+                    src="/images/gallery/photo_2026-02-05 18.29.33.jpeg"
+                    alt="Campus View"
                     className="rounded-2xl shadow-2xl w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
@@ -157,7 +154,7 @@ const CampusesPage = () => {
         {/* Wave Divider */}
         <div className="absolute bottom-0 left-0 right-0">
           <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
+            <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white" />
           </svg>
         </div>
       </section>
@@ -175,7 +172,7 @@ const CampusesPage = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
               <h2 className="text-3xl font-bold text-primary-800 mb-8 text-center">What Makes Our Campuses Special</h2>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-100 text-blue-600 w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">1</div>

@@ -12,13 +12,12 @@ const ShreeKrishnaUdairamsarPage = () => {
   return (
     <div>
       {/* SEO Optimized Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 text-white py-16 md:py-24">
+      <section className="relative bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 text-white pt-32 pb-20 md:pt-48 md:pb-32">
         <div className="container mx-auto px-4">
           <div
             ref={headerRef}
-            className={`max-w-5xl mx-auto text-center transition-all duration-1000 ${
-              headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-            }`}
+            className={`max-w-5xl mx-auto text-center transition-all duration-1000 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+              }`}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Shree Krishna Public School Udairamsar | Best RBSE School in Bikaner
@@ -63,9 +62,8 @@ const ShreeKrishnaUdairamsarPage = () => {
         <div className="container mx-auto px-4">
           <div
             ref={contentRef}
-            className={`max-w-5xl mx-auto transition-all duration-1000 ${
-              contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-            }`}
+            className={`max-w-5xl mx-auto transition-all duration-1000 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+              }`}
           >
             {/* Introduction */}
             <div className="mb-12">
@@ -271,9 +269,8 @@ const ShreeKrishnaUdairamsarPage = () => {
         <div className="container mx-auto px-4">
           <div
             ref={mapRef}
-            className={`max-w-5xl mx-auto transition-all duration-1000 ${
-              mapVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
-            }`}
+            className={`max-w-5xl mx-auto transition-all duration-1000 ${mapVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
+              }`}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-primary-800 mb-6 text-center">
               Find Shree Krishna Public School on Google Maps

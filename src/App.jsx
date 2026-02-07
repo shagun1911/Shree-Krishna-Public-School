@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import NoticeBar from './components/NoticeBar';
 import FloatingContact from './components/FloatingContact';
 import ScrollToTop from './components/ScrollToTop';
 import { initEmailJS } from './services/emailService';
@@ -31,12 +30,9 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="min-h-screen bg-gray-50">
-        <a href="#main-content" className="skip-to-main">
-          Skip to main content
-        </a>
-        <NoticeBar />
+
         <Header />
-        <main id="main-content" className="pt-28">
+        <main id="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
