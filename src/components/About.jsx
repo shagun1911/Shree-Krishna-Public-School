@@ -137,11 +137,7 @@ const About = () => {
         </div>
 
         {/* Values Cards - Enhanced UI */}
-<<<<<<< HEAD
-       {/* <div 
-=======
         <div
->>>>>>> 9f30690 (changes)
           ref={valuesRef}
           className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"
         >
@@ -170,39 +166,21 @@ const About = () => {
                   transitionDelay: valuesVisible ? `${index * 150}ms` : '0ms'
                 }}
               >
-                
+
                 <div className="absolute inset-0 opacity-5">
                   <div className="absolute inset-0" style={{
                     backgroundImage: 'radial-gradient(circle at 20% 50%, currentColor 1px, transparent 1px)',
                     backgroundSize: '24px 24px'
                   }}></div>
                 </div>
-<<<<<<< HEAD
-                
-                
-                <div className={`absolute inset-0 bg-gradient-to-br ${gradients[index]} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
-                
-               
-=======
-
                 {/* Glowing Effect on Hover */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${gradients[index]} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
 
                 {/* Icon with Gradient Background */}
->>>>>>> 9f30690 (changes)
                 <div className="relative mb-6">
                   <div className={`w-20 h-20 bg-gradient-to-br ${gradients[index]} rounded-2xl flex items-center justify-center mx-auto transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg`}>
                     <value.icon className="text-4xl text-white" />
                   </div>
-<<<<<<< HEAD
-                  
-                  <div className={`absolute inset-0 w-20 h-20 mx-auto border-2 border-dashed rounded-2xl opacity-0 group-hover:opacity-30 group-hover:scale-125 transition-all duration-300`} style={{ 
-                    borderColor: 'currentColor' 
-                  }}></div>
-                </div>
-                
-                
-=======
                   {/* Decorative Ring */}
                   <div className={`absolute inset-0 w-20 h-20 mx-auto border-2 border-dashed rounded-2xl opacity-0 group-hover:opacity-30 group-hover:scale-125 transition-all duration-300`} style={{
                     borderColor: 'currentColor'
@@ -210,7 +188,6 @@ const About = () => {
                 </div>
 
                 {/* Content */}
->>>>>>> 9f30690 (changes)
                 <div className="relative">
                   <h4 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-primary-700 transition-colors">
                     {value.title}
@@ -219,34 +196,20 @@ const About = () => {
                     {value.description}
                   </p>
                 </div>
-<<<<<<< HEAD
-                
-                
-                <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${gradients[index]} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300`}></div>
-                
-                
-=======
-
                 {/* Bottom Accent Line */}
                 <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${gradients[index]} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300`}></div>
 
                 {/* Corner Decoration */}
->>>>>>> 9f30690 (changes)
                 <div className="absolute top-4 right-4 w-8 h-8 opacity-10 group-hover:opacity-20 transition-opacity">
                   <value.icon className="w-full h-full text-gray-400" />
                 </div>
               </div>
             );
           })}
-        </div>*/}
+        </div>
 
-<<<<<<< HEAD
-       {/* 
-        <div 
-=======
         {/* School Photos Grid */}
         <div
->>>>>>> 9f30690 (changes)
           ref={photosRef}
           className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto"
         >
@@ -277,7 +240,7 @@ const About = () => {
               loading="lazy"
             />
           </div>
-        </div>*/}
+        </div>
       </div>
     </section>
   );
