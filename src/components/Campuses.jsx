@@ -26,7 +26,7 @@ const Campuses = () => {
       description: 'Specially designed for younger children, providing a nurturing environment with play-based learning and individual attention for holistic early childhood development.',
       address: 'C-115 Vyapaar Nagar Gangashahar, Bikaner, Rajasthan, India',
       phone: '+919896941400',
-      pincode: '334003',
+      pincode: '334001',
       googleId: 'C-115 Vyapaar Nagar Gangashahar Bikaner',
       image: '/images/gallery/photo_2026-02-05 18.30.04.jpeg',
       gradient: 'from-orange-500 to-amber-600',

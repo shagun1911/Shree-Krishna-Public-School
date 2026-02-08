@@ -94,13 +94,13 @@ const Header = () => {
               </div>
 
               {/* Center: Desktop Navigation */}
-              <div className="flex items-center justify-center">
-                <div className="flex items-center space-x-1">
+              <div className="flex items-center justify-center w-full">
+                <div className="flex items-center space-x-1 overflow-x-auto no-scrollbar w-full max-w-full">
                   {navItems.slice(0, 5).map((item) => (
                     <Link
                       key={item.name}
                       to={item.href}
-                      className={`text-sm text-gray-800 hover:text-primary-600 font-medium transition-colors px-2.5 py-2 rounded-xl whitespace-nowrap ${location.pathname === item.href ? 'bg-white text-primary-600 shadow-sm' : 'hover:bg-white/50'
+                      className={`text-sm text-gray-800 hover:text-primary-600 font-medium transition-colors px-2.5 py-2 rounded-xl whitespace-nowrap min-w-[90px] ${location.pathname === item.href ? 'bg-white text-primary-600 shadow-sm' : 'hover:bg-white/50'
                         }`}
                     >
                       {item.name}
@@ -148,12 +148,12 @@ const Header = () => {
 
             {/* Secondary Navigation Row (Desktop Only) */}
             <div className="hidden lg:flex items-center justify-center mt-2 pt-2 border-t border-gray-200/50">
-              <div className="flex items-center space-x-1">
+              <div className="flex items-center space-x-1 overflow-x-auto no-scrollbar max-w-[70vw]">
                 {navItems.slice(5).map((item) => (
                   <Link
                     key={item.name}
                     to={item.href}
-                    className={`text-[10px] xl:text-xs text-gray-700 hover:text-primary-600 font-medium transition-colors px-2 py-1 rounded-lg ${location.pathname === item.href ? 'bg-white text-primary-600 shadow-sm' : 'hover:bg-white/50'
+                    className={`text-[10px] xl:text-xs text-gray-700 hover:text-primary-600 font-medium transition-colors px-2 py-1 rounded-lg whitespace-nowrap ${location.pathname === item.href ? 'bg-white text-primary-600 shadow-sm' : 'hover:bg-white/50'
                       }`}
                   >
                     {item.name}
