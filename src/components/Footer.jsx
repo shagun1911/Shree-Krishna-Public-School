@@ -180,7 +180,7 @@ const Footer = () => {
                 <FaMapMarkerAlt className="text-accent-400 mt-1 flex-shrink-0" />
                 <div className="text-gray-400 text-sm">
                   <p className="font-semibold text-white mb-1">Main Campus:</p>
-                  <p>Udairamsar, Bikaner, Rajasthan 334402</p>
+                  <p>Udairamsar, Bikaner, Rajasthan   2</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -192,14 +192,14 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <FaPhone className="text-accent-400 flex-shrink-0" />
-                <a href="tel:+919896941400" className="text-gray-400 hover:text-white transition text-sm">
-                  +919896941400
+                <a href="tel:+918708275671" className="text-gray-400 hover:text-white transition text-sm">
+                  8708275671
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="text-accent-400 flex-shrink-0" />
-                <a href="mailto:19shagunyadavnnl@gmail.com" className="text-gray-400 hover:text-white transition text-sm">
-                  19shagunyadavnnl@gmail.com
+                <a href="mailto:skpsudairamsar@gmail.com" className="text-gray-400 hover:text-white transition text-sm">
+                  skpsudairamsar@gmail.com
                 </a>
               </div>
             </div>

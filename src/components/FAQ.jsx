@@ -14,7 +14,7 @@ const FAQ = () => {
     },
     {
       question: "How do I apply for admission at Shree Krishna Public School?",
-      answer: "You can apply for admission by downloading our admission form from the website, filling it out, and submitting it online or visiting our campus. You can also call us at +91-9896941400 or email at 19shagunyadavnnl@gmail.com for admission inquiries. Admissions are open for the 2026-27 academic session."
+      answer: "You can apply for admission by downloading our admission form from the website, filling it out, and submitting it online or visiting our campus. You can also call us at +91-8708275671 or email at skpsudairamsar@gmail.com for admission inquiries. Admissions are open for the 2026-27 academic session."
     },
     {
       question: "What curriculum does Shree Krishna Public School follow?",
@@ -42,7 +42,7 @@ const FAQ = () => {
     },
     {
       question: "What is the fee structure at Shree Krishna Public School?",
-      answer: "Our fee structure is designed to be affordable while maintaining quality education. Please contact our admission office at +91-9896941400 or visit our campus for detailed fee information and available payment plans."
+      answer: "Our fee structure is designed to be affordable while maintaining quality education. Please contact our admission office at +91-8708275671 or visit our campus for detailed fee information and available payment plans."
     },
     {
       question: "Does Shree Krishna Public School offer scholarships?",
@@ -152,10 +152,10 @@ const FAQ = () => {
               Contact Us
             </a>
             <a
-              href="tel:+919896941400"
+              href="tel:+918708275671"
               className="bg-white text-primary-600 border-2 border-primary-600 px-8 py-4 rounded-full font-semibold hover:bg-primary-50 transition-all"
             >
-              Call +91-9896941400
+              Call +91-8708275671
             </a>
           </div>
         </div>

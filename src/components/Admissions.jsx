@@ -111,7 +111,7 @@ const Admissions = () => {
         }, 5000);
       } catch (error) {
         console.error('Error submitting form:', error);
-        alert('Failed to send enquiry. Please try WhatsApp option or call us directly at +919896941400');
+        alert('Failed to send enquiry. Please try WhatsApp option or call us directly at +918708275671');
       } finally {
         setLoading(false);
       }

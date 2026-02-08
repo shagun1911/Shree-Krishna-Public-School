@@ -151,8 +151,8 @@ const DownloadCenter = () => {
       <div className="mt-8 bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
         <p className="text-sm text-gray-700">
           <strong>📌 Note:</strong> All documents are in PDF format unless specified. If you face any issues downloading, please contact us at{' '}
-          <a href="tel:+919896941400" className="text-primary-600 font-medium hover:underline">
-            +919896941400
+          <a href="tel:+918708275671" className="text-primary-600 font-medium hover:underline">
+            8708275671
           </a>
         </p>
       </div>

@@ -24,7 +24,7 @@ export const sendAdmissionEnquiry = async (formData) => {
   try {
     // Template parameters that will be available in your email template
     const templateParams = {
-      to_email: '19shagunyadavnnl@gmail.com', // School email
+      to_email: 'skpsudairamsar@gmail.com', // School email
       parent_name: formData.parentName,
       child_name: formData.childName,
       child_age: formData.childAge,
@@ -58,7 +58,7 @@ export const sendAdmissionEnquiry = async (formData) => {
 export const sendContactMessage = async (formData) => {
   try {
     const templateParams = {
-      to_email: '19shagunyadavnnl@gmail.com',
+      to_email: 'skpsudairamsar@gmail.com',
       from_name: formData.name,
       from_email: formData.email,
       phone: formData.phone,
@@ -87,7 +87,7 @@ export const sendContactMessage = async (formData) => {
  * This creates a WhatsApp message with form details
  */
 export const sendWhatsAppNotification = (formData, type = 'admission') => {
-  const phone = '919896941400'; // School WhatsApp number
+  const phone = '918708275671'; // School WhatsApp number
   
   let message = '';
   

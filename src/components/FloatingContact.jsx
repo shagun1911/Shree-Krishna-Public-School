@@ -8,19 +8,19 @@ const FloatingContact = () => {
     {
       icon: FaPhone,
       label: 'Call Us',
-      href: 'tel:+919896941400',
+      href: 'tel:+918708275671',
       color: 'bg-green-500 hover:bg-green-600',
     },
     {
       icon: FaWhatsapp,
       label: 'WhatsApp',
-      href: 'https://wa.me/919896941400',
+      href: 'https://wa.me/918708275671',
       color: 'bg-green-600 hover:bg-green-700',
     },
     {
       icon: FaEnvelope,
       label: 'Email',
-      href: 'mailto:19shagunyadavnnl@gmail.com',
+      href: 'mailto:skpsudairamsar@gmail.com',
       color: 'bg-blue-500 hover:bg-blue-600',
     },
   ];

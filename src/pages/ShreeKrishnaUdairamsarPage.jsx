@@ -44,10 +44,10 @@ const ShreeKrishnaUdairamsarPage = () => {
                 Apply for Admission 2026-27
               </a>
               <a
-                href="tel:+919896941400"
+                href="tel:+918708275671"
                 className="bg-white/20 backdrop-blur-md border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white/30 transition-all"
               >
-                Call Now: +91-9896941400
+                Call Now: +91-8708275671
               </a>
             </div>
           </div>
@@ -205,10 +205,10 @@ const ShreeKrishnaUdairamsarPage = () => {
                   Apply Online Now
                 </a>
                 <a
-                  href="tel:+919896941400"
+                  href="tel:+919001547343"
                   className="bg-white text-primary-600 border-2 border-primary-600 px-8 py-4 rounded-full font-bold text-center hover:bg-primary-50 transition-all"
                 >
-                  Call for Admission: +91-9896941400
+                  Call for Admission: +91-9001547343
                 </a>
               </div>
             </div>
@@ -239,8 +239,8 @@ const ShreeKrishnaUdairamsarPage = () => {
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                   <FaPhone className="text-4xl text-green-600 mx-auto mb-4" />
                   <h3 className="font-bold text-gray-800 mb-2">Phone</h3>
-                  <a href="tel:+919896941400" className="text-gray-600 hover:text-primary-600">
-                    +91-9896941400
+                  <a href="tel:+918708275671" className="text-gray-600 hover:text-primary-600">
+                    +91-8708275671
                   </a>
                   <p className="text-sm text-gray-500 mt-2">
                     Monday - Saturday<br />
@@ -251,8 +251,8 @@ const ShreeKrishnaUdairamsarPage = () => {
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                   <FaEnvelope className="text-4xl text-blue-600 mx-auto mb-4" />
                   <h3 className="font-bold text-gray-800 mb-2">Email</h3>
-                  <a href="mailto:19shagunyadavnnl@gmail.com" className="text-gray-600 hover:text-primary-600">
-                    19shagunyadavnnl@gmail.com
+                  <a href="mailto:skpsudairamsar@gmail.com" className="text-gray-600 hover:text-primary-600">
+                    skpsudairamsar@gmail.com
                   </a>
                   <p className="text-sm text-gray-500 mt-2">
                     For Admissions & Inquiries
