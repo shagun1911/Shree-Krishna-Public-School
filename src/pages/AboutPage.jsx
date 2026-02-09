@@ -43,7 +43,7 @@ const AboutPage = () => {
                 />
               </div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                 About <span className="text-yellow-400">Shri Krishna</span><br />
                 Public School
               </h1>
@@ -118,9 +118,9 @@ const AboutPage = () => {
 
           {/* Awards Banner */}
           <div className="mt-12 text-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            <div className="inline-flex items-center space-x-3 bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-bold shadow-lg">
-              <FaTrophy className="text-2xl" />
-              <span>Best Principal Award 2024 • In Top 1000 Schools in India</span>
+            <div className="inline-flex flex-wrap items-center justify-center gap-3 bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-bold shadow-lg max-w-full mx-auto">
+              <FaTrophy className="text-xl flex-shrink-0" />
+              <span className="text-sm md:text-base">Best Principal Award 2024 • In Top 1000 Schools in India</span>
             </div>
           </div>
         </div>
