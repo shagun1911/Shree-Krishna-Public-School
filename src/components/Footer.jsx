@@ -180,7 +180,7 @@ const Footer = () => {
                 <FaMapMarkerAlt className="text-accent-400 mt-1 flex-shrink-0" />
                 <div className="text-gray-400 text-sm">
                   <p className="font-semibold text-white mb-1">Main Campus:</p>
-                  <p>Udairamsar, Bikaner, Rajasthan   2</p>
+                  <p>W7QW+9G6, Udairamsar, Rajasthan 334402</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

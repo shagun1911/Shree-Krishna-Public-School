@@ -69,7 +69,7 @@ const Achievements = () => {
       subtitle: 'Indian Talent Olympiad Recognition',
       image: '/images/achievements/WhatsApp_Image_2025-12-02_at_18.32.52-e978874f-94e5-4cda-a7c9-56bd65e6cdd6.png',
       color: 'from-yellow-400 to-yellow-600',
-      stats: 'Principal: Suresh Devi Yadav',
+      stats: 'Principal: Suresh Yadav',
     },
     {
       icon: FaMedal,

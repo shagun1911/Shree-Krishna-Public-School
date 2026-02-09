@@ -159,7 +159,7 @@ const AboutPage = () => {
                   In those early days, he played every role a school needed—bus driver at 4 AM, caretaker at dawn, manager through the morning, government school teacher by noon, and free tutor for students in the evening—a tireless routine he followed to build this legacy.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Alongside him, <strong>Mrs. Suresh Devi Yadav</strong> shaped the school's identity with discipline and values. Today, we serve over 30,000 students across two campuses, producing 7-8 doctors and 3-5 engineers every year. Our mission remains the same: quality education for every student, where learning always comes before everything else.
+                  Alongside him, <strong>Mrs. Suresh Yadav</strong> shaped the school's identity with discipline and values. Today, we serve over 30,000 students across two campuses, producing 7-8 doctors and 3-5 engineers every year. Our mission remains the same: quality education for every student, where learning always comes before everything else.
                 </p>
               </div>
               <div className={`relative transition-all duration-1000 delay-300 ${storyVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'

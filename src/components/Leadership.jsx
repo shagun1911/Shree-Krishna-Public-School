@@ -7,7 +7,7 @@ const Leadership = () => {
   const [cardsRef, cardsVisible] = useScrollAnimation({ threshold: 0.1 });
   const leaders = [
     {
-      name: 'Mrs. Suresh Devi Yadav',
+      name: 'Mrs. Suresh Yadav',
       role: 'Principal',
       image: '/images/leadership/principal-suresh-yadav.png',
       award: 'Best Principal Award Winner',

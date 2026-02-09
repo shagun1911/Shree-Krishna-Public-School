@@ -59,7 +59,7 @@ const PrincipalMessage = () => {
                     </div>
                   </div>
 
-                  <h3 className="text-2xl font-bold text-white mb-1">Mrs. Suresh Devi Yadav</h3>
+                  <h3 className="text-2xl font-bold text-white mb-1">Mrs. Suresh Yadav</h3>
                   <p className="text-white/90 font-semibold mb-2">Principal</p>
                   <div className="bg-white/20 backdrop-blur-md px-4 py-2 rounded-full inline-block">
                     <p className="text-white text-sm font-semibold">
@@ -96,7 +96,7 @@ const PrincipalMessage = () => {
 
                   {/* Signature */}
                   <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-                    <p className="text-xl font-bold text-gray-800 dark:text-white">Mrs. Suresh Devi Yadav</p>
+                    <p className="text-xl font-bold text-gray-800 dark:text-white">Mrs. Suresh Yadav</p>
                     <p className="text-gray-600 dark:text-gray-400">Principal & Co-Founder</p>
                   </div>
                 </div>

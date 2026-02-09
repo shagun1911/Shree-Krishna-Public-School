@@ -83,7 +83,7 @@ const ContactPage = () => {
                   <FaMapMarkerAlt className="text-sky-400 text-xl" />
                   <div className="text-left">
                     <div className="text-xs text-sky-200">Location</div>
-                    <div className="font-semibold text-sm">Udairamsar, Bikaner</div>
+                    <div className="font-semibold text-sm">W7QW+9G6, Udairamsar, Rajasthan 334402</div>
                   </div>
                 </div>
               </div>

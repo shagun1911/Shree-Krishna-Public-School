@@ -10,7 +10,7 @@ const Campuses = () => {
       name: 'Shree Krishna Public School',
       tagline: 'Main Campus',
       description: 'Our flagship campus offering comprehensive education from primary to senior secondary levels with state-of-the-art facilities and experienced faculty.',
-      address: 'Udairamsar, Bikaner, Rajasthan 334402, India',
+      address: 'W7QW+9G6, Udairamsar, Rajasthan 334402',
       phone: '+918708275671',
       pincode: '334402',
       googleId: 'W7QW+9G6',

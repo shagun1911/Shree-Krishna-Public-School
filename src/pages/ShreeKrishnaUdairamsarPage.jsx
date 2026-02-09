@@ -223,11 +223,11 @@ const ShreeKrishnaUdairamsarPage = () => {
                   <FaMapMarkerAlt className="text-4xl text-primary-600 mx-auto mb-4" />
                   <h3 className="font-bold text-gray-800 mb-2">Address</h3>
                   <p className="text-gray-600">
-                    Udairamsar, Bikaner,<br />
-                    Rajasthan 334402, India
+                    W7QW+9G6, Udairamsar,<br />
+                    Rajasthan 334402
                   </p>
                   <a
-                    href="https://www.google.com/maps/search/Udairamsar+Bikaner+Rajasthan+334402"
+                    href="https://www.google.com/maps/place/W7QW%2B9G6+Udairamsar,+Rajasthan+334402"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:text-primary-700 font-semibold mt-3 inline-block"
@@ -292,7 +292,7 @@ const ShreeKrishnaUdairamsarPage = () => {
             </div>
             <div className="text-center mt-6">
               <a
-                href="https://www.google.com/maps/search/Udairamsar+Bikaner+Rajasthan+334402"
+                href="https://www.google.com/maps/place/W7QW%2B9G6+Udairamsar,+Rajasthan+334402"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-gradient-primary text-white px-8 py-4 rounded-full font-bold hover:shadow-xl transform hover:scale-105 transition-all"

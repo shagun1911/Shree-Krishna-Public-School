@@ -41,7 +41,7 @@ const Contact = () => {
     {
       icon: FaMapMarkerAlt,
       title: 'Main Campus',
-      details: ['Udairamsar, Bikaner', 'Rajasthan 334402, India'],
+      details: ['W7QW+9G6, Udairamsar', 'Rajasthan 334402'],
       color: 'text-red-600',
       bgColor: 'bg-red-100',
       link: 'https://www.google.com/maps/place/W7QW%2B9G6+Udairamsar,+Rajasthan+334402',
@@ -74,7 +74,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    
+
     try {
       if (sendMethod === 'whatsapp') {
         sendWhatsAppNotification(formData, 'contact');
@@ -83,7 +83,7 @@ const Contact = () => {
         await sendContactMessage(formData);
         setSubmitted(true);
       }
-      
+
       setTimeout(() => {
         setSubmitted(false);
         setFormData({
@@ -106,11 +106,10 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div 
+        <div
           ref={headerRef}
-          className={`text-center mb-16 transition-all duration-1000 ${
-            headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-          }`}
+          className={`text-center mb-16 transition-all duration-1000 ${headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            }`}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-primary-800 mb-4">
             Get in <span className="gradient-text">Touch</span>
@@ -122,7 +121,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Cards */}
-        <div 
+        <div
           ref={infoCardsRef}
           className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
         >
@@ -132,10 +131,9 @@ const Contact = () => {
               href={info.link}
               target={info.link.startsWith('http') ? '_blank' : undefined}
               rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-              className={`bg-white p-6 rounded-xl shadow-lg text-center card-hover block transition-all duration-700 ${
-                infoCardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
-              }`}
-              style={{ 
+              className={`bg-white p-6 rounded-xl shadow-lg text-center card-hover block transition-all duration-700 ${infoCardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
+                }`}
+              style={{
                 transitionDelay: infoCardsVisible ? `${index * 150}ms` : '0ms'
               }}
             >
@@ -155,15 +153,14 @@ const Contact = () => {
         {/* Contact Form and Map */}
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
-          <div 
+          <div
             ref={formRef}
-            className={`transition-all duration-1000 ${
-              formVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
-            }`}
+            className={`transition-all duration-1000 ${formVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
+              }`}
           >
             <div className="bg-white p-8 rounded-2xl shadow-xl">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Send us a Message</h3>
-              
+
               {submitted ? (
                 <div className="text-center py-12 animate-fade-in">
                   <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 animate-bounce">
@@ -242,11 +239,10 @@ const Contact = () => {
                       <button
                         type="button"
                         onClick={() => setSendMethod('email')}
-                        className={`flex-1 flex items-center justify-center space-x-2 py-3 px-4 rounded-lg font-medium transition-all ${
-                          sendMethod === 'email'
-                            ? 'bg-primary-600 text-white shadow-lg'
-                            : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-primary-400'
-                        }`}
+                        className={`flex-1 flex items-center justify-center space-x-2 py-3 px-4 rounded-lg font-medium transition-all ${sendMethod === 'email'
+                          ? 'bg-primary-600 text-white shadow-lg'
+                          : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-primary-400'
+                          }`}
                       >
                         <FaEnvelope />
                         <span>Email</span>
@@ -254,19 +250,18 @@ const Contact = () => {
                       <button
                         type="button"
                         onClick={() => setSendMethod('whatsapp')}
-                        className={`flex-1 flex items-center justify-center space-x-2 py-3 px-4 rounded-lg font-medium transition-all ${
-                          sendMethod === 'whatsapp'
-                            ? 'bg-green-600 text-white shadow-lg'
-                            : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-green-400'
-                        }`}
+                        className={`flex-1 flex items-center justify-center space-x-2 py-3 px-4 rounded-lg font-medium transition-all ${sendMethod === 'whatsapp'
+                          ? 'bg-green-600 text-white shadow-lg'
+                          : 'bg-white text-gray-700 border-2 border-gray-300 hover:border-green-400'
+                          }`}
                       >
                         <FaWhatsapp />
                         <span>WhatsApp</span>
                       </button>
                     </div>
                     <p className="text-xs text-gray-700 mt-2 text-center font-medium">
-                      {sendMethod === 'email' 
-                        ? '📧 We\'ll send you a confirmation email' 
+                      {sendMethod === 'email'
+                        ? '📧 We\'ll send you a confirmation email'
                         : '💬 Opens WhatsApp with your details pre-filled'}
                     </p>
                   </div>
@@ -274,13 +269,11 @@ const Contact = () => {
                   <button
                     type="submit"
                     disabled={loading}
-                    className={`w-full ${
-                      sendMethod === 'whatsapp' 
-                        ? 'bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800' 
-                        : 'bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800'
-                    } text-white py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all ${
-                      loading ? 'opacity-50 cursor-not-allowed' : ''
-                    }`}
+                    className={`w-full ${sendMethod === 'whatsapp'
+                      ? 'bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800'
+                      : 'bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800'
+                      } text-white py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all ${loading ? 'opacity-50 cursor-not-allowed' : ''
+                      }`}
                   >
                     {loading ? (
                       <span className="flex items-center justify-center space-x-2">
@@ -316,19 +309,18 @@ const Contact = () => {
           </div>
 
           {/* Map */}
-          <div 
+          <div
             ref={mapsRef}
-            className={`transition-all duration-1000 delay-300 ${
-              mapsVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'
-            }`}
+            className={`transition-all duration-1000 delay-300 ${mapsVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'
+              }`}
           >
             <div className="bg-white p-4 rounded-2xl shadow-xl h-full">
               <h3 className="text-2xl font-bold text-gray-800 mb-6 px-4">Find Us Here</h3>
-              
+
               {/* Main Campus Map */}
               <div className="mb-6">
                 <h4 className="font-bold text-gray-700 mb-2 px-4">Shree Krishna Public School</h4>
-                <p className="text-sm text-gray-600 mb-2 px-4">Udairamsar, Bikaner, Rajasthan 334402 (W7QW+9G6)</p>
+                <p className="text-sm text-gray-600 mb-2 px-4">W7QW+9G6, Udairamsar, Rajasthan 334402</p>
                 <div className="rounded-xl overflow-hidden shadow-lg">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.3!2d73.39!3d27.89!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDUzJzI0LjAiTiA3M8KwMjMnMjQuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
