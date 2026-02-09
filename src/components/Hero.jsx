@@ -101,7 +101,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className={`absolute top-32 right-8 lg:right-16 hidden lg:block z-20 transition-all duration-1000 delay-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-50 opacity-0'}`}>
+      <div className={`absolute top-40 right-8 lg:right-16 hidden lg:block z-20 transition-all duration-1000 delay-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-50 opacity-0'}`}>
         <div className="bg-white/20 backdrop-blur-md p-4 rounded-3xl border border-white/30 shadow-2xl">
           <img
             src="/logo.png"

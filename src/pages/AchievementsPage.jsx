@@ -9,7 +9,7 @@ const AchievementsPage = () => {
   return (
     <div>
       {/* Page Header */}
-      <section className="bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 text-white pt-32 pb-20">
+      <section className="bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 text-white pt-48 pb-20">
         <div
           ref={headerRef}
           className="container mx-auto px-4 text-center"
