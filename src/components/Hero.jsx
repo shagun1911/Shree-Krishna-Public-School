@@ -31,6 +31,7 @@ const Hero = () => {
             alt="Shree Krishna Public School"
             className="w-full h-full object-cover scale-105 animate-subtle-zoom"
             loading="eager"
+            fetchpriority="high"
           />
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-black/40 to-transparent"></div>

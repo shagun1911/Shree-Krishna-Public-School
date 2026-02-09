@@ -45,6 +45,7 @@ const PrincipalMessage = () => {
                         alt="Principal Suresh Yadav"
                         className="w-full h-full object-cover object-top scale-110"
                         style={{ objectPosition: 'center 20%' }}
+                        loading="lazy"
                       />
                     </div>
                     <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-white px-4 py-2 rounded-full shadow-lg">

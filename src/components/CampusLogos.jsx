@@ -30,6 +30,7 @@ const CampusLogos = () => {
                 src="/logo.png"
                 alt="Shree Krishna Public School Logo"
                 className="w-32 h-32 object-contain mx-auto"
+                loading="lazy"
               />
             </div>
             <h4 className="text-xl font-bold text-gray-800 mb-2">
@@ -50,6 +51,7 @@ const CampusLogos = () => {
                 src="/images/lkps-english-academy-logo.png"
                 alt="LKPS English Academy Logo"
                 className="w-32 h-32 object-contain mx-auto"
+                loading="lazy"
               />
             </div>
             <h4 className="text-xl font-bold text-gray-800 mb-2">

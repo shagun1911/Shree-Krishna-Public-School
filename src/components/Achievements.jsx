@@ -161,6 +161,7 @@ const Achievements = () => {
                           alt="Principal Suresh Yadav"
                           className="w-full h-full object-cover object-top rounded-full scale-110"
                           style={{ objectPosition: 'center 20%' }}
+                          loading="lazy"
                         />
                       </div>
                       <div className="absolute -bottom-2 -right-2 bg-yellow-400 text-yellow-900 w-16 h-16 rounded-full flex items-center justify-center shadow-2xl animate-pulse">
