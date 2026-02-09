@@ -12,10 +12,10 @@ const AboutPage = () => {
   const timeline = [
     { year: '2004', event: 'School Established in Udairamsar, Bikaner' },
     { year: '2008', event: 'RBSE Affiliation Received' },
-    { year: '2012', event: 'LKPS English Academy Campus Opened' },
     { year: '2016', event: 'New Science Block Inaugurated' },
     { year: '2020', event: 'Digital Classrooms Implemented' },
     { year: '2024', event: 'Best Principal Award - In Top 1000 Schools' },
+    { year: '2024', event: 'LKPS English Academy Campus Opened' },
   ];
 
   return (

@@ -23,7 +23,7 @@ const LittleKrishnaBikanerPage = () => {
               LKPS English Academy Bikaner | Little Krishna Public School
             </h1>
             <p className="text-xl md:text-2xl text-orange-100 mb-8">
-              Best Early Years Education in Gangashahar, Bikaner | Nurturing Young Minds Since 2012
+              Best Early Years Education in Gangashahar, Bikaner | Nurturing Young Minds Since 2024
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <div className="bg-white/20 backdrop-blur-md px-6 py-3 rounded-full">
@@ -71,7 +71,7 @@ const LittleKrishnaBikanerPage = () => {
                 About LKPS English Academy, Gangashahar, Bikaner
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                <strong>LKPS English Academy</strong> (formerly known as Little Krishna Public School) is located in <strong>C-115 Vyapaar Nagar, Gangashahar, Bikaner, Rajasthan</strong>. Established in <strong>2012</strong>, LKPS is the sister campus of the renowned Shree Krishna Public School and specializes in providing quality early years education.
+                <strong>LKPS English Academy</strong> (formerly known as Little Krishna Public School) is located in <strong>C-115 Vyapaar Nagar, Gangashahar, Bikaner, Rajasthan</strong>. Established in <strong>2024</strong>, LKPS is the sister campus of the renowned Shree Krishna Public School and specializes in providing quality early years education.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
                 As part of the Shree Krishna Education family, LKPS English Academy shares the same commitment to excellence and has been <strong>recognized among the Top 1000 Schools in India</strong>. We focus on nurturing young children from <strong>Nursery to Primary levels</strong> with a child-centric, play-based learning approach.
