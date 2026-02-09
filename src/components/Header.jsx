@@ -160,8 +160,8 @@ const Header = () => {
                   </Link>
                 ))}
                 <div className="flex items-center space-x-3 text-[10px] xl:text-xs ml-4 pl-4 border-l border-gray-300">
-                  <a href="tel:+919896941400" className="flex items-center text-gray-700 hover:text-primary-600 transition whitespace-nowrap">
-                    <FaPhone className="mr-1.5" /> +919896941400
+                  <a href="tel:+919001547343" className="flex items-center text-gray-700 hover:text-primary-600 transition whitespace-nowrap">
+                    <FaPhone className="mr-1.5" /> +919001547343
                   </a>
                 </div>
               </div>
@@ -230,10 +230,10 @@ const Header = () => {
                   </Link>
                   <div className="grid grid-cols-1 gap-2">
                     <a
-                      href="tel:+919896941400"
+                      href="tel:+919001547343"
                       className="flex items-center justify-center text-gray-600 text-xs font-semibold py-2.5 px-4 rounded-xl bg-gray-50"
                     >
-                      <FaPhone className="mr-2 text-primary-500" /> +919896941400
+                      <FaPhone className="mr-2 text-primary-500" /> +919001547343
                     </a>
                   </div>
                 </div>
