@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaTrophy, FaGraduationCap, FaUsers, FaBus, FaBook } from 'react-icons/fa';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import InfiniteSlider from '../components/InfiniteSlider';
@@ -37,12 +38,12 @@ const ShreeKrishnaUdairamsarPage = () => {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="/admissions"
+              <Link
+                to="/admissions"
                 className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-full font-bold hover:shadow-2xl transform hover:scale-105 transition-all"
               >
                 Apply for Admission 2026-27
-              </a>
+              </Link>
               <a
                 href="tel:+918708275671"
                 className="bg-white/20 backdrop-blur-md border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white/30 transition-all"
@@ -198,12 +199,12 @@ const ShreeKrishnaUdairamsarPage = () => {
                 We are now accepting applications for the <strong>2026-27 academic session</strong> for classes Nursery to XII. Don't miss this opportunity to give your child the best education in Bikaner!
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href="/admissions"
+                <Link
+                  to="/admissions"
                   className="bg-gradient-primary text-white px-8 py-4 rounded-full font-bold text-center hover:shadow-xl transform hover:scale-105 transition-all"
                 >
                   Apply Online Now
-                </a>
+                </Link>
                 <a
                   href="tel:+919001547343"
                   className="bg-white text-primary-600 border-2 border-primary-600 px-8 py-4 rounded-full font-bold text-center hover:bg-primary-50 transition-all"

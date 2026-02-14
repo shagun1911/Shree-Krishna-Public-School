@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaTrophy, FaMedal, FaStar, FaAward, FaGraduationCap, FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
@@ -447,19 +448,19 @@ const Achievements = () => {
         )}
 
         {/* Call to Action */}
-        <div className="mt-16 text-center bg-gradient-primary rounded-2xl p-12 text-black animate-scale-in">
+        <div className="mt-16 text-center bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 rounded-2xl p-12 text-white animate-scale-in shadow-2xl">
           <h3 className="text-3xl font-bold mb-4">
             Join Our Award-Winning School!
           </h3>
           <p className="text-xl mb-6 text-gray-100">
             Be part of a school recognized among India's best
           </p>
-          <a
-            href="/admissions"
-            className="inline-block bg-white text-primary-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transform hover:scale-105 transition-all"
+          <Link
+            to="/admissions"
+            className="inline-block bg-white text-primary-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl hover:bg-gray-100 transform hover:scale-105 transition-all"
           >
             Apply for Admission 2026-27
-          </a>
+          </Link>
         </div>
       </div>
     </section>

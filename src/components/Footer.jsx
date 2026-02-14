@@ -174,31 +174,31 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            <h4 className="text-lg font-bold mb-4 text-accent-300">Contact Us</h4>
-            <div className="space-y-3">
-              <div className="flex items-start space-x-3">
-                <FaMapMarkerAlt className="text-accent-400 mt-1 flex-shrink-0" />
-                <div className="text-gray-400 text-sm">
+            <h4 className="text-lg font-bold mb-6 text-accent-300">Contact Us</h4>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <FaMapMarkerAlt className="text-accent-400 text-base flex-shrink-0 mt-1" />
+                <div className="text-gray-400 text-sm leading-relaxed">
                   <p className="font-semibold text-white mb-1">Main Campus:</p>
-                  <p>W7QW+9G6, Udairamsar, Rajasthan 334402</p>
+                  <p className="leading-relaxed">W7QW+9G6, Udairamsar, Rajasthan 334402</p>
                 </div>
               </div>
-              <div className="flex items-start space-x-3">
-                <FaMapMarkerAlt className="text-accent-400 mt-1 flex-shrink-0" />
-                <div className="text-gray-400 text-sm">
+              <div className="flex items-start gap-3">
+                <FaMapMarkerAlt className="text-accent-400 text-base flex-shrink-0 mt-1" />
+                <div className="text-gray-400 text-sm leading-relaxed">
                   <p className="font-semibold text-white mb-1">LKPS English Academy:</p>
-                  <p>C-115 Vyapaar Nagar Gangashahar Bikaner</p>
+                  <p className="leading-relaxed">C-115 Vyapaar Nagar Gangashahar Bikaner</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <FaPhone className="text-accent-400 flex-shrink-0" />
-                <a href="tel:+918708275671" className="text-gray-400 hover:text-white transition text-sm">
+              <div className="flex items-start gap-3">
+                <FaPhone className="text-accent-400 text-base flex-shrink-0 mt-0.5" />
+                <a href="tel:+918708275671" className="text-gray-400 hover:text-white transition text-sm leading-relaxed">
                   8708275671
                 </a>
               </div>
-              <div className="flex items-center space-x-3">
-                <FaEnvelope className="text-accent-400 flex-shrink-0" />
-                <a href="mailto:skpsudairamsar@gmail.com" className="text-gray-400 hover:text-white transition text-sm">
+              <div className="flex items-start gap-3">
+                <FaEnvelope className="text-accent-400 text-base flex-shrink-0 mt-0.5" />
+                <a href="mailto:skpsudairamsar@gmail.com" className="text-gray-400 hover:text-white transition text-sm break-all leading-relaxed">
                   skpsudairamsar@gmail.com
                 </a>
               </div>

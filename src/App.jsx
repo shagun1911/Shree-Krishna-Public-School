@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import FloatingContact from './components/FloatingContact';
 import ScrollToTop from './components/ScrollToTop';
+import ScrollProgress from './components/ScrollProgress';
 import { initEmailJS } from './services/emailService';
 
 // Pages
@@ -19,6 +20,7 @@ import ContactPage from './pages/ContactPage';
 import AchievementsPage from './pages/AchievementsPage';
 import ShreeKrishnaUdairamsarPage from './pages/ShreeKrishnaUdairamsarPage';
 import LittleKrishnaBikanerPage from './pages/LittleKrishnaBikanerPage';
+import NotFound from './pages/NotFound';
 
 function App() {
   useEffect(() => {
@@ -29,6 +31,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
+      <ScrollProgress />
       <div className="min-h-screen bg-gray-50 overflow-x-hidden">
 
         <Header />
@@ -48,6 +51,9 @@ function App() {
             {/* SEO Optimized Campus Pages */}
             <Route path="/shree-krishna-public-school-udairamsar" element={<ShreeKrishnaUdairamsarPage />} />
             <Route path="/little-krishna-public-school-bikaner" element={<LittleKrishnaBikanerPage />} />
+
+            {/* 404 Page */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaCheckCircle, FaHeart, FaBrain, FaTrophy, FaUsers } from 'react-icons/fa';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
@@ -126,13 +127,13 @@ const About = () => {
               ))}
             </div>
 
-            <a
-              href="#admissions"
+            <Link
+              to="/admissions"
               className={`inline-block bg-primary-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-primary-700 transform hover:scale-105 transition-all shadow-lg ${contentVisible ? 'opacity-100 translate-y-0 delay-500' : 'opacity-0 translate-y-5'
                 }`}
             >
               Join Our Family
-            </a>
+            </Link>
           </div>
         </div>
 

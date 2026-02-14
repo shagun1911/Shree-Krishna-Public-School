@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Events from '../components/Events';
 import { FaCalendarAlt, FaTrophy, FaMusic, FaPalette, FaTheaterMasks } from 'react-icons/fa';
 import useScrollAnimation from '../hooks/useScrollAnimation';
@@ -75,12 +76,12 @@ const EventsPage = () => {
                 >
                   🎉 View Events
                 </a>
-                <a
-                  href="/gallery"
+                <Link
+                  to="/gallery"
                   className="bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-all"
                 >
                   📸 Photo Gallery
-                </a>
+                </Link>
               </div>
             </div>
 

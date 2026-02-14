@@ -1,52 +1,53 @@
 import React from 'react';
-import { FaTrophy, FaStar, FaMedal, FaGraduationCap, FaBook, FaUsers, FaAward, FaHeart, FaRocket, FaLightbulb } from 'react-icons/fa';
+import { FaTrophy, FaMedal, FaAward, FaStar, FaGraduationCap, FaUsers, FaBuilding, FaBook } from 'react-icons/fa';
 
 const InfiniteSlider = () => {
-  const slides = [
-    { icon: FaTrophy, text: 'In Top 1000 Schools', color: 'text-yellow-500', bgColor: 'bg-yellow-50' },
-    { icon: FaUsers, text: '30000+ Happy Students', color: 'text-blue-500', bgColor: 'bg-blue-50' },
-    { icon: FaStar, text: '95% Success Rate', color: 'text-green-500', bgColor: 'bg-green-50' },
-    { icon: FaGraduationCap, text: '20+ Years Experience', color: 'text-purple-500', bgColor: 'bg-purple-50' },
-    { icon: FaMedal, text: 'Best Principal Award', color: 'text-orange-500', bgColor: 'bg-orange-50' },
-    { icon: FaHeart, text: '3000+ Satisfied Parents', color: 'text-red-500', bgColor: 'bg-red-50' },
-    { icon: FaBook, text: 'Modern Curriculum', color: 'text-indigo-500', bgColor: 'bg-indigo-50' },
-    { icon: FaRocket, text: 'Future Ready Education', color: 'text-pink-500', bgColor: 'bg-pink-50' },
-    { icon: FaLightbulb, text: 'Innovative Teaching', color: 'text-teal-500', bgColor: 'bg-teal-50' },
-    { icon: FaAward, text: 'RBSE Affiliated', color: 'text-cyan-500', bgColor: 'bg-cyan-50' },
+  const achievements = [
+    { icon: FaTrophy, text: 'Top 1000 Schools in India', color: 'text-yellow-500' },
+    { icon: FaMedal, text: '38 Gold Medals in Olympiad', color: 'text-orange-500' },
+    { icon: FaAward, text: 'Best Principal Award 2024', color: 'text-blue-500' },
+    { icon: FaStar, text: '5 Black Belts in Karate', color: 'text-red-500' },
+    { icon: FaGraduationCap, text: '100% Board Results', color: 'text-green-500' },
+    { icon: FaUsers, text: '30000+ Alumni Network', color: 'text-purple-500' },
+    { icon: FaBuilding, text: '2 Modern Campuses', color: 'text-indigo-500' },
+    { icon: FaBook, text: '20+ Years of Excellence', color: 'text-pink-500' },
   ];
 
-  // Duplicate the slides for seamless infinite loop
-  const duplicatedSlides = [...slides, ...slides, ...slides];
-
   return (
-    <div className="relative overflow-hidden bg-gradient-to-r from-primary-50 via-white to-primary-50 py-8 border-y-4 border-primary-200">
-      {/* Gradient Overlays */}
-      <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10"></div>
-      <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10"></div>
-
-      {/* Scrolling Container */}
-      <div className="flex animate-scroll">
-        {duplicatedSlides.map((slide, index) => (
-          <div
-            key={index}
-            className={`flex-shrink-0 mx-4 ${slide.bgColor} rounded-2xl px-8 py-4 shadow-lg hover:shadow-xl transition-all hover:scale-105 transform`}
-            style={{ minWidth: '280px' }}
-          >
-            <div className="flex items-center space-x-4">
-              <div className={`${slide.color} text-4xl`}>
-                <slide.icon />
-              </div>
-              <div className="font-bold text-gray-800 text-lg whitespace-nowrap">
-                {slide.text}
-              </div>
-            </div>
-          </div>
-        ))}
+    <section className="relative py-8 bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 overflow-hidden">
+      {/* Decorative Background */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.05) 35px, rgba(255,255,255,.05) 70px)',
+        }}></div>
       </div>
 
-      {/* Fun decorative elements for kids */}
-
-    </div>
+      <div className="relative">
+        {/* Slider Container */}
+        <div className="flex animate-infinite-scroll hover:pause-animation">
+          {/* First Set */}
+          {achievements.map((item, index) => (
+            <div
+              key={`first-${index}`}
+              className="flex items-center space-x-3 mx-8 min-w-max bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
+            >
+              <item.icon className={`text-2xl ${item.color}`} />
+              <span className="text-white font-semibold whitespace-nowrap">{item.text}</span>
+            </div>
+          ))}
+          {/* Duplicate Set for Seamless Loop */}
+          {achievements.map((item, index) => (
+            <div
+              key={`second-${index}`}
+              className="flex items-center space-x-3 mx-8 min-w-max bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
+            >
+              <item.icon className={`text-2xl ${item.color}`} />
+              <span className="text-white font-semibold whitespace-nowrap">{item.text}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 

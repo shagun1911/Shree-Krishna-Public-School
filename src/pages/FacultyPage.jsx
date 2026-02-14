@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import InfiniteSlider from '../components/InfiniteSlider';
 import { FaGraduationCap, FaFlask, FaCalculator, FaBook, FaGlobe, FaPalette, FaUsers, FaChalkboardTeacher, FaAward } from 'react-icons/fa';
 import useScrollAnimation from '../hooks/useScrollAnimation';
@@ -159,12 +160,12 @@ const FacultyPage = () => {
                 >
                   👨‍🏫 Meet Our Teachers
                 </a>
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   className="bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-all"
                 >
                   Join Our Team
-                </a>
+                </Link>
               </div>
             </div>
 

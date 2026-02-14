@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import About from '../components/About';
 import Leadership from '../components/Leadership';
 import InfiniteSlider from '../components/InfiniteSlider';
@@ -76,12 +77,12 @@ const AboutPage = () => {
                 >
                   Our Story
                 </a>
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   className="bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-all"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
 

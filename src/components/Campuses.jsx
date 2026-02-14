@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaMapMarkerAlt, FaPhone, FaClock, FaGraduationCap } from 'react-icons/fa';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
@@ -152,12 +153,12 @@ const Campuses = () => {
 
                   {/* Action Buttons */}
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <a
-                      href="/contact"
+                    <Link
+                      to="/contact"
                       className="bg-gradient-primary text-white px-6 py-3 rounded-full font-semibold text-center hover:shadow-lg transform hover:scale-105 transition-all"
                     >
                       Schedule Visit
-                    </a>
+                    </Link>
                     <a
                       href={campus.directionsUrl}
                       target="_blank"

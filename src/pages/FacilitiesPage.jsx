@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Facilities from '../components/Facilities';
 import { FaLaptop, FaBook, FaFlask, FaFutbol, FaBus, FaMusic } from 'react-icons/fa';
 import useScrollAnimation from '../hooks/useScrollAnimation';
@@ -92,12 +93,12 @@ const FacilitiesPage = () => {
                 >
                   Explore Facilities
                 </a>
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   className="bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-all"
                 >
                   Schedule Visit
-                </a>
+                </Link>
               </div>
             </div>
 

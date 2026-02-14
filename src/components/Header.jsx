@@ -65,7 +65,7 @@ const Header = () => {
       {/* Main Navigation - Improved Design */}
       <header
         className={`w-full transition-all duration-300 ${isScrolled
-          ? 'bg-white shadow-xl py-2'
+          ? 'bg-white/95 backdrop-blur-lg shadow-xl py-2'
           : 'bg-transparent py-4 md:py-6'
           }`}
       >

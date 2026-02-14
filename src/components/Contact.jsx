@@ -290,22 +290,8 @@ const Contact = () => {
               )}
             </div>
 
-            {/* Social Media */}
-            <div className="mt-8 text-center">
-              <h4 className="text-lg font-bold text-gray-800 mb-4">Connect with Us</h4>
-              <div className="flex justify-center space-x-4">
-                {socialLinks.map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.url}
-                    aria-label={social.label}
-                    className={`w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center text-gray-700 ${social.color} hover:text-white transition-all transform hover:scale-110`}
-                  >
-                    <social.icon className="text-xl" />
-                  </a>
-                ))}
-              </div>
-            </div>
+    
+          
           </div>
 
           {/* Map */}

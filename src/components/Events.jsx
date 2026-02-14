@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaCalendar, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
@@ -129,12 +130,12 @@ const Events = () => {
         {/* Call to Action */}
         <div className="mt-16 text-center animate-fade-in-up">
           <p className="text-gray-600 mb-4">Want to stay informed about all our events?</p>
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             className="inline-block bg-accent-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-accent-600 transform hover:scale-105 transition-all shadow-lg"
           >
             Subscribe to Newsletter
-          </a>
+          </Link>
         </div>
 
         {/* Animated GIF */}

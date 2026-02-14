@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, EffectFade } from 'swiper/modules';
 import 'swiper/css';
@@ -63,18 +64,23 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-16">
-              <a
-                href="/admissions"
-                className="w-full sm:w-auto bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl transform hover:scale-105 transition-all text-center flex items-center justify-center"
+              <Link
+                to="/admissions"
+                className="group w-full sm:w-auto bg-gradient-to-r from-yellow-400 via-orange-400 to-orange-500 text-black px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-orange-500/50 transform hover:scale-105 transition-all text-center flex items-center justify-center relative overflow-hidden"
               >
-                Apply Now
-              </a>
-              <a
-                href="/gallery"
-                className="w-full sm:w-auto bg-white/10 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/20 transition-all text-center"
+                <span className="absolute inset-0 bg-gradient-to-r from-yellow-300 to-orange-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                <span className="relative flex items-center gap-2">
+                  <FaGraduationCap className="text-xl" />
+                  Apply Now
+                </span>
+              </Link>
+              <Link
+                to="/gallery"
+                className="group w-full sm:w-auto bg-white/10 backdrop-blur-md border-2 border-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/20 hover:border-white/50 transition-all text-center relative overflow-hidden"
               >
-                View Gallery
-              </a>
+                <span className="absolute inset-0 bg-white/10 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                <span className="relative">View Gallery</span>
+              </Link>
             </div>
           </div>
 
@@ -85,15 +91,15 @@ const Hero = () => {
             {stats.map((stat, index) => (
               <div
                 key={index}
-                className={`flex items-center space-x-4 bg-white/5 backdrop-blur-xl p-4 md:p-5 rounded-2xl border border-white/10 shadow-2xl transition-all duration-1000 ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+                className={`group flex items-center space-x-4 bg-white/5 backdrop-blur-xl p-4 md:p-5 rounded-2xl border border-white/10 shadow-2xl hover:bg-white/10 hover:border-white/20 hover:scale-105 transition-all duration-1000 cursor-default ${statsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
-                <div className={`w-10 h-10 md:w-14 md:h-14 rounded-xl bg-white/10 flex items-center justify-center ${stat.color}`}>
+                <div className={`w-10 h-10 md:w-14 md:h-14 rounded-xl bg-white/10 group-hover:bg-white/20 flex items-center justify-center ${stat.color} group-hover:scale-110 transition-all duration-300`}>
                   <stat.icon className="text-xl md:text-3xl" />
                 </div>
                 <div>
                   <div className="text-xl md:text-3xl font-black text-white">{stat.value}</div>
-                  <div className="text-[10px] md:text-sm text-gray-400 font-medium uppercase tracking-wide">{stat.label}</div>
+                  <div className="text-[10px] md:text-sm text-gray-400 group-hover:text-gray-300 font-medium uppercase tracking-wide transition-colors">{stat.label}</div>
                 </div>
               </div>
             ))}
