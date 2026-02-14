@@ -1,13 +1,8 @@
 # robots.txt for Shree Krishna Public School
+# https://www.shreekrishnaschools.com
+
 User-agent: *
 Allow: /
 
-# Disallow admin or private pages (if any in future)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Sitemap location
-Sitemap: https://shree-krishna-public-school.vercel.app/sitemap.xml
-
-# Crawl-delay (optional, helps with server load)
-Crawl-delay: 1
+# Sitemap
+Sitemap: https://www.shreekrishnaschools.com/sitemap.xml
